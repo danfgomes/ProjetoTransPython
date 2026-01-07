@@ -1,0 +1,75 @@
+############################
+# Arquivos de build Java
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Dumps de memória da JVM
+hs_err_pid*
+replay_pid*
+
+############################
+# Maven
+############################
+target/
+*.log
+*.tmp
+*.temp
+
+############################
+# Gradle
+############################
+.gradle
+build/
+!build/cache/
+out/
+
+############################
+# IDEs
+############################
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+tmp/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+############################
+# macOS
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários do Finder
+._*
+
+# Lixeira
+.Trash-*
+
+# Arquivos de metadados de volume
+.Spotlight-V100
+.fseventsd
+
+############################
+# Outros
+############################
+*.bak
+*.swp
+*~
